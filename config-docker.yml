@@ -1,0 +1,11 @@
+debug: false
+mongodb:
+  address: ${MONGODB_ADDRESS}
+server:
+  host: ${SERVER_HOST}
+  port: ${SERVER_PORT}
+  exposePort: ${SERVER_EXPOSE_PORT}
+datadog:
+  env: ${DATADOG_WITH_ENV}
+  service: ${DATADOG_WITH_SERVICE}
+  address: ${DATADOG_WITH_ADDRESS}

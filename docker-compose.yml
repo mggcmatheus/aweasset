@@ -1,0 +1,9 @@
+services:
+  aweasset:
+    image: aweasset:latest
+    container_name: aweasset
+    ports:
+      - "3000:3000"
+networks:
+  default:
+    driver: bridge
